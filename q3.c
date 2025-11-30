@@ -14,6 +14,7 @@ int main(){
     }
 
     // Reverse copy
+  int newarr[5];
     for(int i=0; i<5; i++){
         newarr[4 - i] = arr[i];
     }
